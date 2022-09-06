@@ -17,6 +17,7 @@ setInterval(_ => {
 
 ```javascript
 // client.js
+
 const subscription = pollable('http://localhost:3000/poll/channel-1');
 
 subscription.addEventListener('message', e => {
